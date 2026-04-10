@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: panel-kierownictwa
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: wiesio-admin
+  namespace: panel-kierownictwa
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tajny-panel
+  namespace: panel-kierownictwa
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tajny-panel
+  template:
+    metadata:
+      labels:
+        app: tajny-panel
+    spec:
+      serviceAccountName: wiesio-admin
+      initContainers:
+      - name: system-check
+        image: bitnami/kubectl:latest
+        command: ['sh', '-c', 'kubectl get nodes && echo "System gotowy"']
+      containers:
+      - name: web
+        image: nginx:alpine
+        ports:
+        - containerPort: 80
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 80
+          initialDelaySeconds: 2
+          periodSeconds: 2
