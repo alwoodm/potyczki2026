@@ -1,5 +1,4 @@
-# Witamy w finale!
-Potyczki Młodych Adminów 2025
+# Potyczki Młodych Adminów: Finał 2026
 
 ## Wstęp
 
@@ -14,16 +13,6 @@ Najlepiej napisany program i najlepiej wdrożony system jest tykającą bombą b
 
 Opisz kroki wykonane w celu realizacji zadania, szczególnie lokalizacje zasobów, użyte opcje i komendy - nie musisz tego robić bardzo dokładnie, ale w razie wątpliwości będą one działać na twoją korzyść. Na przykład jeśli zadanie nie zostało do końca wykonane, ale znacząca część kroków jest opisana poprawnie, zaliczymy za to częściowe punkty. Albo jeśli zadanie zostało wykonane, ale nie w sposób jakiego oczekiwaliśmy, to opis będzie kluczem do uzyskania za nie punktów. To, co nie jest opisane, a nie jest oczywiste z interfejsu Ranchera, będzie rozstrzygane na twoją niekorzyść! Wszystkie zadania wykonujemy na klastrze **potyczki**.
 
-# Potyczki Młodych Adminów: Finał 2026
-
-**Wstęp:**
-Gratulacje! Zostałeś przyjęty na prestiżowy, acz bezpłatny staż w prężnie rozwijającym się przedsiębiorstwie wielobranżowym Krzak-Pol S.A. Główny informatyk, Pan Wiesio, wyjechał na ryby w Bieszczady i zapomniał zabrać telefonu. Prezes Janusz właśnie wpadł do serwerowni z wypiekami na twarzy i listą pilnych zadań. 
-
-Twoim narzędziem pracy jest nowoczesny klaster K3s z panelem Rancher. Prezes nie znosi sprzeciwu, a każda sekunda to dla niego utrata zysków. Uratuj firmę, a może dostaniesz referencje! Czas ucieka. Powodzenia!
-
----
-
-# Potyczki Młodych Adminów: Finał 2026
 
 **Wstęp:**
 Gratulacje! Zostałeś przyjęty na prestiżowy, acz bezpłatny staż w prężnie rozwijającym się przedsiębiorstwie wielobranżowym Krzak-Pol S.A. Główny informatyk, Pan Wiesio, wyjechał na ryby w Bieszczady i zapomniał zabrać telefonu. Prezes Janusz właśnie wpadł do serwerowni z wypiekami na twarzy i listą pilnych zadań. 
