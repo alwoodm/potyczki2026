@@ -56,7 +56,7 @@ spec:
       serviceAccountName: wiesio-admin
       initContainers:
         - name: system-check
-          image: bitnami/kubectl:1.31.0
+          image: alpine/k8s:1.32.0
           command: ['sh', '-c', 'kubectl get nodes && echo "System gotowy"']
       containers:
         - name: web
